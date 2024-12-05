@@ -1,0 +1,4 @@
+uvicorn app.main:app
+https://habr.com/ru/companies/amvera/articles/846926/  список статей
+
+https://habr.com/ru/companies/amvera/articles/826196/ 1 статья
