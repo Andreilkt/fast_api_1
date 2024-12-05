@@ -1,0 +1,19 @@
+Index: amvera.yml
+===================================================================
+diff --git a/amvera.yml b/amvera.yml
+deleted file mode 100644
+--- a/amvera.yml	(revision 6508946d713f65b30908fbdcf0abc16e3613c106)
++++ /dev/null	(revision 6508946d713f65b30908fbdcf0abc16e3613c106)
+@@ -1,12 +0,0 @@
+----
+-meta:
+-  environment: python
+-  toolchain:
+-    name: pip
+-    version: 3.11
+-build:
+-  requirementsPath: requirements.txt
+-run:
+-  persistenceMount: /data
+-  containerPort: 8000
+-  command: uvicorn app.main:app --host 0.0.0.0  --port 8000
